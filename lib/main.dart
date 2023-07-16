@@ -41,17 +41,18 @@ class _CounterPageState extends State<CounterPage> {
       appBar: AppBar(
         title: Text('Counter App'),
       ),
+
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text(
               'Counter Value:',
-              style: TextStyle(fontSize: 20),
+              style: TextStyle(fontSize: 30),
             ),
             Text(
               '$_counter',
-              style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+              style: TextStyle(fontSize: 100, fontWeight: FontWeight.bold),
             ),
           ],
         ),
@@ -60,7 +61,7 @@ class _CounterPageState extends State<CounterPage> {
         fit: StackFit.expand,
             children: [
               Positioned(
-              left: 30,
+              left: 50,
               bottom: 20,
               child: FloatingActionButton(
                 heroTag: 'back',
@@ -69,7 +70,7 @@ class _CounterPageState extends State<CounterPage> {
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: const Icon(
-                  Icons.remove,
+                  Icons.remove_sharp,
                   size: 40,
                 ),
               ),
