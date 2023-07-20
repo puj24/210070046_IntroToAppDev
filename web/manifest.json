@@ -1,6 +1,6 @@
 {
-    "name": "tut",
-    "short_name": "tut",
+    "name": "week2",
+    "short_name": "week2",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

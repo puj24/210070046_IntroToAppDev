@@ -1,4 +1,4 @@
-package com.example.tut
+package com.example.week2
 
 import io.flutter.embedding.android.FlutterActivity
 
